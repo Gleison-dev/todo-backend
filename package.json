@@ -19,6 +19,7 @@
     "sequelize": "^6.37.4"
   },
   "devDependencies": {
+    "@types/cors": "^2.8.17",
     "@types/express": "^5.0.0"
   }
 }
