@@ -5,11 +5,10 @@ import cors from "cors";
 
 dotenv.config();
 
-app.use(cors());
-
 const app = express();
 const port = process.env.SV_SERVER;
 
+app.use(cors());
 app.use(express.json());
 
 app.listen(port, () => {
